@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando com links</title>
+  </head>
+  <body>
+    <h1>Usando links externos</h1>
+    <p>
+      Você pode acessar o meu
+      <a href="https://github.com/notsogreatdavi" target="_blank" rel="external"
+        >repositório público no Github</a
+      >
+    </p>
+    <p>
+      Você também pode acessar o
+      <a href="https://youtube.com/cursoemvideo/">canal no youtube</a> do
+      gustavo guanabara
+    </p>
+    <p>
+      O atributo hreflang permite indicar qual o idioma principal do site pra
+      onde o link está levando:
+      <a href="https://www.w3schools.com/html/" hreflang="eng"
+        >Site da W3Schools (em Inglês)</a
+      >
+    </p>
+    <p>
+      o atributo rel indica qual é a natureza do destino, podendo ser: next,
+      prev, author, external e nofollow
+    </p>
+    <h1>Usando links internos</h1>
+    <p>
+      Exemplo de
+      <a href="pag002.html" target="_self" rel="next">link interno</a>
+    </p>
+    <p>
+      Você pode também acessar a nossa
+      <a href="pagina03/pag003.html" rel="next">terceira página</a>
+    </p>
+    <h1>Link para download</h1>
+    <p>
+      Para fazer downloads, basta colcoar no href o caminho do arquivo,
+      adicionar o atributo download com o nome e o atributo type para indicar
+      que tipo de arquivo será baixado: <br />
+      <a href="index.html" download="index.html" type="text/html">site atual</a>
+    </p>
+  </body>
+</html>
